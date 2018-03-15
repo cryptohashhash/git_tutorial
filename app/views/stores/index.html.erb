@@ -1,0 +1,22 @@
+<h1>Stores#index</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @stores.each do |store| %>
+    <tr>
+      <td><%= store[0] %></td>
+      <td><%= store[1] %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+
+<p>Find me in app/views/stores/index.html.erb</p>
